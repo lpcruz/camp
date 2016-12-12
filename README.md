@@ -1,2 +1,2 @@
 # selenium-js
-Overview of Selenium via JavaScrip. 
+Overview of Selenium via JavaScript. 
