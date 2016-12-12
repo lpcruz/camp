@@ -1,0 +1,24 @@
+{
+  "name": "selenium-js",
+  "version": "1.0.0",
+  "description": "Practice making automated test cases with Selenium and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpcruz/selenium-js.git"
+  },
+  "keywords": [
+    "automated",
+    "testing",
+    "qa"
+  ],
+  "author": "lcruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpcruz/selenium-js/issues"
+  },
+  "homepage": "https://github.com/lpcruz/selenium-js#readme"
+}
