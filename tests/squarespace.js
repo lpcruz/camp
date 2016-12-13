@@ -1,7 +1,8 @@
 // squarespace.js
 var webdriver = require('selenium-webdriver'),
-    ByCssSelector = webdriver.By.css;
-    url = 'http://www.squarespace.com';
+    fsPath = require('fs-path'),
+    ByCssSelector = webdriver.By.css,
+    url = 'http://www.squarespace.com',
     browser = new webdriver.Builder()
     .forBrowser('firefox')
     .build();
@@ -18,7 +19,7 @@ browser.sleep(5000);
 // 2. Take screenshot of homepage
 browser.takeScreenshot().then(
     function(image) {
-        require('fs-path').writeFileSync('./screens/squarespace/homepage.png', image, 'base64');
+        fsPath.writeFileSync('./screens/squarespace/homepage.png', image, 'base64');
         console.log('✔  Successfully took a screenshot of Squarespace homepage');
     }
 );
