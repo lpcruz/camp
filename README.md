@@ -39,3 +39,8 @@ $ node tests/google.js
 ## Viewing screenshots
 
 Screenshots will automatically appear in the `/screens` directory within the root of `selenium-js`
+
+## References
+
+#### Commands API
+http://www.seleniumhq.org/docs/03_webdriver.jsp#selenium-webdriver-api-commands-and-operations (Choose JavaScript as preferred programming language)

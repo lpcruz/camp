@@ -27,5 +27,8 @@ browser.takeScreenshot().then(
     }
 );
 
-// 3. Close browser
+// 3. Click on an element by targeting its CSS Selector (Recommended method)
+browser.findElement(ByCssSelector('css selector goes here')).click();
+
+// 4. Close browser
 browser.quit();
