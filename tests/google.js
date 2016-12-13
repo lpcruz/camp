@@ -4,14 +4,14 @@ var webdriver = require('selenium-webdriver'),
 
 
 // instantiate browser object
-// NOTE: Only Firefox will work 
+// NOTE: Only Firefox will work
 var driver = new webdriver.Builder()
     .forBrowser('firefox')
     .build();
 
 
 // start doing testing stuffs
-driver.get('http://www.google.com/ncr');
+driver.get('http://www.google.com');
 driver.findElement(By.name('q')).sendKeys('webdriver');
 driver.findElement(By.name('btnG')).click();
 driver.quit();
