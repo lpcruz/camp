@@ -35,3 +35,7 @@ If the `brew` installation fails, you can obtain the appropriate version of `gec
 ```
 $ node tests/google.js
 ```
+
+## Viewing screenshots
+
+Screenshots will automatically appear in the `/screens` directory within the root of `selenium-js`
