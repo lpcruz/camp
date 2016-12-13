@@ -1,5 +1,6 @@
 // squarespace.js
 var webdriver = require('selenium-webdriver'),
+    util = require('util'),
     fsPath = require('fs-path'),
     ByCssSelector = webdriver.By.css,
     url = 'http://www.squarespace.com',
@@ -39,3 +40,4 @@ browser.takeScreenshot().then(
 
 // 5. Close browser
 browser.quit();
+util.format('open ./screens/squarespace');
