@@ -4,7 +4,7 @@
   "description": "Practice making automated test cases with Selenium and JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm i && brew install geckodriver"
   },
   "repository": {
     "type": "git",
