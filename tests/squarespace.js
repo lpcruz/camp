@@ -1,4 +1,4 @@
-// google_search.js
+// squarespace.js
 var webdriver = require('selenium-webdriver'),
     By = webdriver.By;
 
