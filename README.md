@@ -9,20 +9,20 @@ Practice writing selenium tests in JavaScript
 
 ## Get Started
 
-1. Clone the repository
+#### Clone the repository
 
 ```
 $ git clone https://github.com/lpcruz/selenium-js.git
 ```
 
-2. Get required node dependencies
+### Get required node dependencies
 
 ```
 $ npm install
 ```
 
 
-3. Get geckodriver
+### Get geckodriver
 
 ```
 $ npm run brew-gecko
@@ -30,7 +30,7 @@ $ npm run brew-gecko
 
 If the `brew` installation fails, you can obtain the appropriate version of `geckodriver` here: https://github.com/mozilla/geckodriver/releases
 
-4. Run a sample test
+### Run a sample test
 
 ```
 $ node tests/google.js
