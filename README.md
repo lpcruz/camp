@@ -15,14 +15,14 @@ Practice writing selenium tests in JavaScript
 $ git clone https://github.com/lpcruz/selenium-js.git
 ```
 
-### Get required node dependencies
+#### Get required node dependencies
 
 ```
 $ npm install
 ```
 
 
-### Get geckodriver
+#### Get geckodriver
 
 ```
 $ npm run brew-gecko
@@ -30,7 +30,7 @@ $ npm run brew-gecko
 
 If the `brew` installation fails, you can obtain the appropriate version of `geckodriver` here: https://github.com/mozilla/geckodriver/releases
 
-### Run a sample test
+#### Run a sample test
 
 ```
 $ node tests/google.js
