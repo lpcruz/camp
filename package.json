@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/lpcruz/selenium-js/issues"
   },
-  "homepage": "https://github.com/lpcruz/selenium-js#readme"
+  "homepage": "https://github.com/lpcruz/selenium-js#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^3.0.1"
+  },
+  "devDependencies": {}
 }
