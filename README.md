@@ -1,6 +1,6 @@
-# selenium-js
+# CAMP
 
-Practice writing selenium tests in JavaScript
+Practice writing selenium tests in JavaScript so you can be a better person. 
 
 ## Requirements
 1. node >= 6.9.2
