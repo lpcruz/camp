@@ -25,7 +25,9 @@
     "test": "tests"
   },
   "dependencies": {
+    "app-root-dir": "^1.0.2",
     "fs-path": "0.0.23",
+    "open": "0.0.5",
     "selenium-webdriver": "3.0.1"
   },
   "devDependencies": {}
