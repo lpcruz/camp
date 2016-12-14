@@ -48,7 +48,7 @@ open(appRootDir + '/screens/my-first-test/', 'finder');
 
 
 ##Extra Resources, Challenges and Projects
-*[Webdriver Sample Test Page](http://webdriverjsdemo.github.io/)
-*[Selenium Commands API](http://www.seleniumhq.org/docs/03_webdriver.jsp#selenium-webdriver-api-commands-and-operations)
-*[HTML basics (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-*[CSS Selectors](http://www.w3schools.com/cssref/css_selectors.asp)
+* [Webdriver Sample Test Page](http://webdriverjsdemo.github.io/)
+* [Selenium Commands API](http://www.seleniumhq.org/docs/03_webdriver.jsp#selenium-webdriver-api-commands-and-operations)
+* [HTML basics (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+* [CSS Selectors](http://www.w3schools.com/cssref/css_selectors.asp)
