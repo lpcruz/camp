@@ -1,19 +1,24 @@
-// At the top is our basic paramaters for running a test
+// Build the Camp
 var webdriver = require('selenium-webdriver'),
+    open = require('open'),
     fsPath = require('fs-path'),
+    appRootDir = require('app-root-dir').get(),
     ByCssSelector = webdriver.By.css,
-
-    // Pass in the website that you want to test
-    // NOTE: Only Firefox will work
-    url = 'http://yourtestingsite.com',
     browser = new webdriver.Builder()
     .forBrowser('firefox')
     .build();
 
+require('app-root-dir').set(__dirname);
+
+// ====================================== //
+
 /**
- * TEST: Description of test
- * AUTHOR: Your Name
+ * TEST: Test case description
+ * AUTHOR: Your name
  */
+
+// Set the URL to go to
+var url = 'http://www.yourtestsite.com';
 
 // 1. Go to the url
 browser.get(url);
@@ -24,6 +29,7 @@ browser.takeScreenshot().then(
     function(image) {
         fsPath.writeFileSync('./screens/my-first-test/homepage.png', image, 'base64');
         console.log('✔  Successfully took a screenshot of homepage');
+        open(appRootDir + '/screens/my-first-test/', 'finder');
     }
 );
 

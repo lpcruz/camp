@@ -1,20 +1,24 @@
-// squarespace.js
+// Build the Camp
 var webdriver = require('selenium-webdriver'),
     open = require('open'),
     fsPath = require('fs-path'),
     appRootDir = require('app-root-dir').get(),
     ByCssSelector = webdriver.By.css,
-    url = 'http://www.squarespace.com',
     browser = new webdriver.Builder()
     .forBrowser('firefox')
     .build();
 
 require('app-root-dir').set(__dirname);
 
+// ====================================== //
+
 /**
  * TEST: Go to Squarespace homepage and click the 'Get Started' Button
  * AUTHOR: lcruz
  */
+
+// Set the URL to go to 
+var url = 'http://www.squarespace.com';
 
 // 1. Go to the url
 browser.get(url);

@@ -1,17 +1,36 @@
-// google_search.js
+// Build the Camp
 var webdriver = require('selenium-webdriver'),
-    By = webdriver.By;
-
-
-// instantiate browser object
-// NOTE: Only Firefox will work
-var driver = new webdriver.Builder()
+    open = require('open'),
+    fsPath = require('fs-path'),
+    appRootDir = require('app-root-dir').get(),
+    ByCssSelector = webdriver.By.css,
+    browser = new webdriver.Builder()
     .forBrowser('firefox')
     .build();
 
+require('app-root-dir').set(__dirname);
 
-// start doing testing stuffs
-driver.get('http://www.google.com');
-driver.findElement(By.name('q')).sendKeys('webdriver');
-driver.findElement(By.name('btnG')).click();
-driver.quit();
+// ====================================== //
+
+/**
+ * TEST: Test case description
+ * AUTHOR: Your name
+ */
+
+// Set the URL to go to
+var url = 'http://www.google.com';
+
+// 1. Go to the url
+browser.get(url);
+browser.sleep(5000);
+
+// 2. Take screenshot once you've visited the page
+browser.takeScreenshot().then(
+    function(image) {
+        fsPath.writeFileSync('./screens/google/homepage.png', image, 'base64');
+        console.log('✔  Successfully took a screenshot of Google homepage');
+        open(appRootDir + '/screens/google/', 'finder');
+    }
+);
+
+browser.quit();
