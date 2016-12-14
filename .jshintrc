@@ -1,0 +1,23 @@
+{
+  "curly":          true,
+  "gcl":            true,
+  "lastsemic":      true,
+  "maxcomplexity":  8,
+  "maxdepth":       4,
+  "maxlen":         500,
+  "maxparams":      4,
+  "maxcomplexity":  20,
+  "quotmark":       true,
+  "regexdash":      true,
+  "sub":            true,
+  "trailing":       true,
+  "unused":         "var",
+  "wsh":            true,
+  "esnext":         true,
+  "node":           true,
+  "globals": {
+    "document":     true,
+    "Y":            true,
+    "window":       true
+  }
+}
