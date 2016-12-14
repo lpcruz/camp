@@ -25,7 +25,7 @@ $ npm install
 #### Get geckodriver
 
 ```
-$ npm run brew-gecko
+$ npm run build-camp
 ```
 
 If the `brew` installation fails, you can obtain the appropriate version of `geckodriver` here: https://github.com/mozilla/geckodriver/releases
@@ -38,7 +38,13 @@ $ node tests/google.js
 
 ## Viewing screenshots
 
-Screenshots will automatically appear in the `/screens` directory within the root of `selenium-js`
+Screenshots will automatically open when your test is finished.
+
+####### NOTE: Place the following line of code after your `console.log()` within the `takeScreenshot()` method.
+
+```
+open(appRootDir + '/screens/my-first-test/', 'finder');
+```
 
 ## References
 
