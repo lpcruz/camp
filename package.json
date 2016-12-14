@@ -4,7 +4,7 @@
   "description": "Practice making automated test cases with Selenium and JavaScript",
   "main": "index.js",
   "scripts": {
-    "brew-gecko": "brew install geckodriver"
+    "build-camp": "brew install geckodriver"
   },
   "repository": {
     "type": "git",
