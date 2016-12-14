@@ -40,7 +40,7 @@ $ node tests/google.js
 
 Screenshots will automatically open when your test is finished.
 
-####### NOTE: Place the following line of code after your `console.log()` within the `takeScreenshot()` method.
+###### NOTE: Place the following line of code after your `console.log()` within the `takeScreenshot()` method.
 
 ```
 open(appRootDir + '/screens/my-first-test/', 'finder');
