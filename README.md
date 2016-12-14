@@ -1,6 +1,6 @@
 # CAMP
 
-Practice writing selenium tests in JavaScript so you can be a better person. 
+Practice writing selenium tests in JavaScript so you can be a better person.
 
 ## Requirements
 1. node >= 6.9.2
@@ -46,7 +46,9 @@ Screenshots will automatically open when your test is finished.
 open(appRootDir + '/screens/my-first-test/', 'finder');
 ```
 
-## References
 
-#### Commands API
-http://www.seleniumhq.org/docs/03_webdriver.jsp#selenium-webdriver-api-commands-and-operations (Choose JavaScript as preferred programming language)
+##Extra Resources, Challenges and Projects
+[Webdriver Sample Test Page](http://webdriverjsdemo.github.io/)
+[Selenium Commands API](http://www.seleniumhq.org/docs/03_webdriver.jsp#selenium-webdriver-api-commands-and-operations)
+[HTML basics (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+[CSS Selectors](http://www.w3schools.com/cssref/css_selectors.asp)
