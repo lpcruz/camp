@@ -14,8 +14,8 @@ require('app-root-dir').set(__dirname);
 // ====================================== //
 
 /**
- * TEST: Test case description
- * AUTHOR: Your name
+ * TEST: Go to the New York Times homepage and ensure that the Search Button appears
+ * AUTHOR: lcruz
  */
 
 // Set the URL to go to
