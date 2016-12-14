@@ -15,3 +15,7 @@ Ensure that you're in the root directory of `camp` and that you're on `master`
 ### Make your own branch
 
 `git checkout -b your-initials/your-test-name`
+
+### Push to your own branch
+
+`git push origin your-initials/your-test-name`
