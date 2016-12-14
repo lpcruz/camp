@@ -2,7 +2,7 @@
 
 
 ### Overview
-The `/projects` directory is where your tests will live once your pull requests is approved and merged with `master`. That's right, you'll be making your own tests on your own branch.
+The `/projects` directory is where your tests will live once your pull request is approved and merged with `master`. That's right, you'll be making your own tests on your own branch.
 
 # Git Tips
 
