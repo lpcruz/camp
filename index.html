@@ -1,0 +1,45 @@
+<!--Doctype HTML-->
+
+<html>
+
+<body>
+
+<div id="content">
+  <button onclick="showTextOnClick()">Click me</button>
+</div>
+
+</body>
+
+<style>
+#content {
+  font-family: Verdana;
+  text-align: center;
+  margin-top: 150px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  background-color: #3e3e3e;
+  border: solid thin;
+  color: #FFF;
+  font-size: 16px;
+  font-family: Verdana;
+  cursor: pointer;
+}
+</style>
+
+<script>
+
+function showTextOnClick() {
+  var button = document.querySelector('button');
+  var pageContent = document.querySelector('#content');
+
+  button.style = 'display:none;';
+  pageContent.innerHTML = 'Nice! You clicked the button.';
+
+}
+
+</script>
+
+</html>
